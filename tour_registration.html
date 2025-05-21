@@ -1,1 +1,98 @@
-c:\Users\USER\Desktop\bootcamp\tour-registration-form.html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="form">
+  <title>Form</title>
+  <link rel="shortcut icon" href="/img/icons8-home-64.png" type="image/x-icon">
+  <title>Tour Registration Form</title>
+</head>
+
+<body>
+  <h1>Please Fill The Form</h1>
+  <form action="">
+    <fieldset>
+      <legend>Tour Registration Form</legend>
+      <div class="input">
+        <label for="">Please Enter Your Name:</label><br>
+        <input type="text" name="name" id="input-name" placeholder="Please enter your name" size="40" required
+          minlength="5" maxlength="30">
+
+
+      </div>
+      <br>
+      <div class="input">
+        <label for="">Please Enter Your Email:</label><br>
+        <input type="email" name="name" id="input-email" placeholder="Please enter your email" size="40">
+      </div>
+      <br>
+      <div class="input">
+        <label for="">Please Enter Your Company Name::</label><br>
+        <input type="text" name="company_name" id="input-company_name" placeholder="Please enter your company name"
+          size="40" required value="programming hero" readonly>
+      </div>
+      <br>
+      <div class="input">
+        <label for="">Please Enter Your Favourite Color:</label><br>
+        <input type="color" name="color" id="input-color" placeholder="Please enter your favourite color" size="40"
+          required>
+      </div>
+      <br>
+      <div class="input">
+        <label for="">Please Enter Your Birth-Date:</label><br>
+        <input type="date" name="birth-date" id="input-date" placeholder="Please enter your birth-date" size="40"
+          required>
+      </div>
+      <br>
+      <div class="input">
+        <label for="">Please Enter Your Joining-Date:</label><br>
+        <input type="datetime-local" name="join-date" id="input-date" placeholder="Please enter your joining-date"
+          size="40" required>
+      </div>
+      <br>
+      <div class="input">
+        <label for="">Please Upload Your Photo:</label><br>
+        <input type="file" name="photo" id="input-photo" placeholder="Please Upload Your Photo" size="40" required
+          multiple>
+      </div>
+      <br>
+      <div class="input">
+        <label for="">Please Enter a Secret Password:</label><br>
+        <input type="password" name="password" id="input-password" placeholder="Please Enter a Secret password"
+          size="40" required>
+      </div>
+      <br>
+      <div class="input">
+        <label for="">Enter Your Gender:</label>
+        <input type="radio" name="gender" value="Male">Male
+        <input type="radio" name="gender" value="Female">Female
+
+      </div>
+      <br>
+      <div class="input">
+        <label for="">Enter Your Age:</label>
+        <input type="number" name="age" id="input-age" min="18" max="40">
+      </div>
+      <br>
+      <div class="input">
+        <label for="">Enter Your Difficulty Level</label>
+        <select name="" id="">
+          <option value="">Easy</option>
+          <option value="">Medium</option>
+          <option value="" selected>Hard</option>
+        </select>
+
+      </div>
+      <br>
+      <div>
+        <input type="submit" value="Register Now">
+      </div>
+
+    </fieldset>
+  </form>
+
+</body>
+
+</html>
